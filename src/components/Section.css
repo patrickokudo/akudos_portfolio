@@ -1,0 +1,126 @@
+.section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 38.7rem;
+  background-color: #f1f0e8;
+}
+.info {
+  /* height: 40.7rem; */
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image {
+  /* height: 40.7rem; */
+  background-image: url(/src/assets/good-faces-2eC_-0yRrGU-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.name {
+  font-size: 5rem;
+  margin-left: 9rem;
+  font-weight: 790;
+  color: #0e2954;
+  line-height: 90px;
+  margin-top: 1rem;
+}
+.job {
+  text-align: left;
+  margin-left: 9rem;
+  color: #f0b86e;
+}
+header {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 63rem;
+  position: absolute;
+  margin-top: 2rem;
+  margin-left: 9rem;
+  margin-right: 9rem;
+  color: #0e2954;
+}
+.menu-icon {
+  height: 30px;
+  width: 30px;
+}
+
+.close-caption {
+  height: 30px;
+  width: 30px;
+}
+.arrow {
+  height: 20px;
+  width: 20px;
+}
+
+aside {
+  display: flex;
+  gap: 2rem;
+  margin-left: 9rem;
+  color: #0e2954;
+  margin-top: 3rem;
+}
+.about-me,
+.hire-me {
+  display: flex;
+  font-size: 14px;
+  font-weight: 3px;
+}
+.about-me {
+  background-color: #f0b86e;
+  padding: 10px;
+  color: #0e2954;
+}
+.hire-me {
+  background-color: rgb(185, 202, 218);
+  padding: 8px;
+  color: #fff;
+}
+.hire-me:hover {
+  color: #0e2954;
+}
+.about-me:hover {
+  color: #fff;
+}
+
+/* button {
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-left: 50px;
+  border-radius: 25px;
+} */
+/* p {
+  margin-top: 50px;
+  margin-left: 60px;
+  background-color: #0e2954;
+  color: azure;
+  display:inline-block;
+  padding: 10px 30px;
+  width: 50%;
+  border-radius: 25px;
+  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+} */
+/* img {
+  width: auto;
+  height: 600px;
+  margin-left: 30%;
+  margin-right: 30%;
+  transform: translateX(50);
+  transition: 0.5s;
+} */
+
+.dropdown {
+  background-color: rgb(120, 120, 206);
+  position: absolute;
+}
+.dropdownmain {
+  list-style-type: none;
+}

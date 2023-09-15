@@ -1,0 +1,20 @@
+.services {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.cards {
+  display: flex;
+  margin-top: 5rem;
+}
+
+.design,
+.web-dev,
+.graphic-design,
+.branding,
+.marketing,
+.mobile-app,
+.visual-editor,
+.consultancy {
+  width: 10rem;
+  height: 20rem;
+}
